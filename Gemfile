@@ -30,6 +30,8 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 # Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website
 gem 'autoprefixer-rails'
+# User accounts and authentication
+gem 'devise'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
