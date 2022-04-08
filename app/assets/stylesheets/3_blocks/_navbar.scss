@@ -1,7 +1,9 @@
 .navbar {
-  position: fixed;
-  /* With position fixed, use large z-index to ensure it's always on top */
-  z-index: 999;
+  /*
+    position: fixed;
+    /* With position fixed, use large z-index to ensure it's always on top *
+    z-index: 999;
+ */
 
   width: 100%;
 }
