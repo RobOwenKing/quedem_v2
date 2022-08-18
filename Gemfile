@@ -41,8 +41,11 @@ group :development, :test do
   gem 'dotenv-rails'
   # Add step-by-step debugging and stack navigation capabilities to pry using byebug
   gem 'pry-byebug'
-  # Use pry as rails console insteaed of irb
+  # Use pry as rails console instead of irb
   gem 'pry-rails'
+
+  # Use RSpec instead of built-in Minitest
+  gem 'rspec-rails'
 end
 
 group :development do
